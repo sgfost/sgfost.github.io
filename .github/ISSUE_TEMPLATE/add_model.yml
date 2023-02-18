@@ -9,7 +9,7 @@ body:
       label: header
       description: DO NOT CHANGE THIS TEXT
       value: |
-        Test body heading **bold**
+        **This is the first comment in the issue associated with the following model publication:**
   - type: textarea
     id: citation
     attributes:
