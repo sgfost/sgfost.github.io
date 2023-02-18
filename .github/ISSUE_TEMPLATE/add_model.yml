@@ -15,16 +15,6 @@ body:
       placeholder: e.g. Dieckmann, U., & Doebeli, M. (1999). On the origin of species by sympatric speciation, Nature, 400(6742), 354-357.
     validations:
       required: true
-  - type: dropdown
-    id: domain
-    attributes:
-      label: Model Domain
-      description: What domain is the model best categorized by?
-      options:
-        - Cooperation
-        - Crowd Dynamics
-        - Ecological Processes
-        - Land Use
     validations:
       required: true
   - type: markdown
