@@ -8,17 +8,32 @@ body:
       value: |
         Test body heading **bold**
   - type: textarea
-    id: contact
+    id: citation
     attributes:
       label: Model Citation
-      description: How can we get in touch with you if we need more info?
-      placeholder: Model citation here
+      description: Enter the model citation here
+      placeholder: e.g. Dieckmann, U., & Doebeli, M. (1999). On the origin of species by sympatric speciation, Nature, 400(6742), 354-357.
+    validations:
+      required: true
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Model Domain
+      description: What domain is the model best categorized by?
+      options:
+        - Cooperation
+        - Crowd Dynamics
+        - Ecological Processes
+        - Land Use
     validations:
       required: true
   - type: markdown
     attributes:
       value: |
         Use this issue for:
-        - tracking and collab etc
-        - point 2
-        _Be sure to update the issue_
+        - tracking progress in the making FAIR process
+        - collaborating and dividing tasks
+        - documenting each step of the process (i.e., when each of the FAIR criteria are met, or any issues you have found in achieving the criteria)
+        
+        _Make sure that you stay up to date with the yellow labels, indicating the model's status in the making FAIR process_
+        - not sure how to handle this since you need triage perms to mess with labels
