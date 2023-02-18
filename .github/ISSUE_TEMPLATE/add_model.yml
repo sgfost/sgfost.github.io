@@ -21,7 +21,7 @@ body:
   - type: textarea
     id: footer
     attributes:
-      label: Use this issue for:
+      label: 'Use this issue for:'
       description: DO NOT CHANGE THIS TEXT
       value: |
         - tracking progress in the making FAIR process
