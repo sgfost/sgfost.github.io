@@ -5,11 +5,9 @@ assignees:
 body:
   - type: textarea
     id: header
-    attributes:
+    attributes: This is the first comment in the issue associated with the following model publication:
       label: header
-      description: DO NOT CHANGE THIS TEXT
-      value: |
-        **This is the first comment in the issue associated with the following model publication:**
+      description: LEAVE THIS BLANK
   - type: textarea
     id: citation
     attributes:
@@ -23,10 +21,9 @@ body:
   - type: textarea
     id: footer
     attributes:
-      label: footer
+      label: Use this issue for:
       description: DO NOT CHANGE THIS TEXT
       value: |
-        Use this issue for:
         - tracking progress in the making FAIR process
         - collaborating and dividing tasks
         - documenting each step of the process (i.e., when each of the FAIR criteria are met, or any issues you have found in achieving the criteria)
