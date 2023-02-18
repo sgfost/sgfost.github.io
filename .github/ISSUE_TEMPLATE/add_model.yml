@@ -1,5 +1,5 @@
-name: Add Model
-description: create a new issue to track model progress
+name: Add a Model
+description: This issue template can be used when beginning to work on a model from the tobefair.org website that does not yet have an issue associated with it
 assignees:
   - sgfost
 body:
