@@ -5,7 +5,7 @@ assignees:
 body:
   - type: textarea
     id: header
-    attributes: This is the first comment in the issue associated with the following model publication:
+    attributes: 'This is the first comment in the issue associated with the following model publication:'
       label: header
       description: LEAVE THIS BLANK
   - type: textarea
@@ -21,7 +21,7 @@ body:
   - type: textarea
     id: footer
     attributes:
-      label: Use this issue for:
+      label: 'Use this issue for:'
       description: DO NOT CHANGE THIS TEXT
       value: |
         - tracking progress in the making FAIR process
