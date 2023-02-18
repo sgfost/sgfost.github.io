@@ -27,3 +27,9 @@ body:
         
         _Make sure that you stay up to date with the yellow labels, indicating the model's status in the making FAIR process_
         - not sure how to handle this since you need triage perms to mess with labels
+        
+        ## Status
+        - [x] Not yet started
+        - [ ] Looking for collaborators
+        - [ ] In progress
+        - [ ] Meets FAIR criteria!
