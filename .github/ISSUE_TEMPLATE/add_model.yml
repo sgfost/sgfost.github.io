@@ -3,8 +3,10 @@ description: This issue template can be used when beginning to work on a model f
 assignees:
   - sgfost
 body:
-  - type: markdown
+  - type: textarea
     attributes:
+      label: 
+      description: DO NOT MODIFY
       value: |
         Test body heading **bold**
   - type: textarea
@@ -17,8 +19,10 @@ body:
       required: true
     validations:
       required: true
-  - type: markdown
+  - type: textarea
     attributes:
+      label: 
+      description: DO NOT MODIFY
       value: |
         Use this issue for:
         - tracking progress in the making FAIR process
