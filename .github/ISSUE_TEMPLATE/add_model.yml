@@ -6,7 +6,7 @@ body:
   - type: textarea
     id: header
     attributes:
-      label: 
+      label: header
       description: DO NOT CHANGE THIS TEXT
       value: |
         Test body heading **bold**
@@ -23,7 +23,7 @@ body:
   - type: textarea
     id: footer
     attributes:
-      label: 
+      label: footer
       description: DO NOT CHANGE THIS TEXT
       value: |
         Use this issue for:
