@@ -1,0 +1,24 @@
+name: Add Model
+description: create a new issue to track model progress
+assignees:
+  - sgfost
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Test body heading **bold**
+  - type: textarea
+    id: contact
+    attributes:
+      label: Model Citation
+      description: How can we get in touch with you if we need more info?
+      placeholder: Model citation here
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        Use this issue for:
+        - tracking and collab etc
+        - point 2
+        _Be sure to update the issue_
