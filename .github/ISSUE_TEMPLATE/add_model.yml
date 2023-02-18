@@ -4,9 +4,10 @@ assignees:
   - sgfost
 body:
   - type: textarea
+    id: header
     attributes:
       label: 
-      description: DO NOT MODIFY
+      description: DO NOT CHANGE THIS TEXT
       value: |
         Test body heading **bold**
   - type: textarea
@@ -20,9 +21,10 @@ body:
     validations:
       required: true
   - type: textarea
+    id: footer
     attributes:
       label: 
-      description: DO NOT MODIFY
+      description: DO NOT CHANGE THIS TEXT
       value: |
         Use this issue for:
         - tracking progress in the making FAIR process
